@@ -21,12 +21,6 @@ const int sensor = 4;
 unsigned long evento = 0;
 
 
-unsigned long currentTime = millis();
-
-unsigned long previousTime = 0; 
-
-const long timeoutTime = 2000;
-
 void setup() {
   
   Serial.begin(9600);
